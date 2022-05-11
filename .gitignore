@@ -12,6 +12,8 @@ frontend/build
 api/tmp
 
 # misc
+go.mod
+go.sum
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

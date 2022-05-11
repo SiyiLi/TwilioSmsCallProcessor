@@ -1,4 +1,4 @@
-# GoDoRP-TwilioCallReceiver
+# TwilioSmsCallProcessor
 Display/process Twilio messages/calls based on GoDoRP (Golang, Docker, React, Postgres).
 
 ## Features
@@ -9,9 +9,9 @@ Display/process Twilio messages/calls based on GoDoRP (Golang, Docker, React, Po
 * Display messages / call recording URLs from Twilio accounts (posted by Twilio function handler) and play the recordings
 
 ## Todo
+* CD, one cmdline to deploy to AWS EC2
 * Websocket to push message from backend to frontend
 * Play call recordings in table cell
-* CD, one cmdline to deploy to AWS EC2
 * Auth for Twilio function handler to post messages
 * Auth for users to login
 * Classify messages by users' phone numbers, only display relevant messages to a specific user
@@ -30,7 +30,7 @@ Then run the following commands:
 ```bash
 $ mkdir myApp
 $ cd myApp
-$ git clone https://github.com/SiyiLi/GoDoRP-TwilioCallReceiver.
+$ git clone https://github.com/SiyiLi/TwilioSmsCallProcessor
 $ docker-compose up
 ```
 Then you can open the React frontend at localhost:3000 and the RESTful GoLang API at localhost:5433
